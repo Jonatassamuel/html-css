@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font: 16px Arial, Helvetica, Sans-serif;
+}
+
+a{
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(2, 180, 41);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgba(8, 90, 26, 0.623);
+}

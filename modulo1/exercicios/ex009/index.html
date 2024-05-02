@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+</head>
+<body>
+    <h1>Teste de Tags:</h1>
+    <h2>Aqui estão algumas tags importantes para formatação de textos:</h2>
+    <h3>TAGS:</h3>
+    <h4><strong>Tag negrito;</strong> &lt;strong&gt;...&lt;/strong&gt; </h4>
+      <P>Apartir da quebra de linha o texto ficará na formatação da tag:</p> 
+        <br>
+        <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe ipsam in quibusdam optio facere molestiae doloribus laborum sunt error consequatur eaque, nostrum consectetur natus sed placeat neque sint quam.</strong> </p>
+        <br>
+    <h4><em>Tag itálico;</em> &lt;em&gt;...&lt;/em&gt;</h4>
+      <p>Apartir da quebra de linha o texto ficará na formatação da tag:</p> 
+    <br>
+    <p>
+      <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque itaque dolores esse, tenetur perferendis optio veritatis saepe nisi dolore commodi nulla, provident inventore quidem magni. Laudantium molestias ducimus reprehenderit ea.</em>> 
+    </p>
+    <br>
+    <h4><mark>Tag marca-texto; </mark>&lt;mark&gt;...&lt;/mark&gt;</h4>
+   <p>
+    Sabe o marca texto que você usa no caderno? então essa tag é a mesma coisa. apartir da quebra de linha vamos destacar 5 palavras:</p> 
+    <br>
+    <p>
+      <mark>Lorem</mark> ipsum dolor sit amet, consectetur <mark>adipisicing</mark> elit. Ex ipsam odio mollitia maxime, quaerat, maiores culpa a <mark>laboriosam</mark> neque sint repellat id nostrum, quos praesentium <mark>necessitatibus</mark> rem illo <mark>animi</mark> aperiam.
+    </p>
+     <br>   
+    </p>
+    <h4><del>Tag texto deletado;</del> &lt;del&gt;...&lt;del&gt;</h4> 
+    <p>
+      Para ter uma determinada parte do seu texto na formatação demonstrada abaixo use a tag que está acima &#x1F446;
+    </p> 
+    <br>
+    <p>
+      <del> ipsum</del> dolor sit amet consectetur adipisicing elit. Tempora corporis aliquid ea, reprehenderit beatae eligendi amet ex saepe <del>minima</del> quam, et mollitia modi natus <del>dignissimos autem laudantium in</del>, facere consectetur!
+    </p>
+    <br>
+    <h4><ins>Tag texto inserido;</ins> &lt;ins&gt;...&lt;/ins&gt;</h4>
+    <p>Para da destaque a uma parte importante do texto como na demonstração abaixo use a tag acima &#x1F446;</p>
+    <br>
+    <p><ins> ipsum dolor sit amet consectetur</ins> adipisicing elit. Soluta ad ut doloremque suscipit reprehenderit, ipsam voluptas animi sed tempora saepe sequi <ins>temporibus distinctio illo.</ins> Eius repudiandae ut vitae omnis? Veritatis!</p>
+    <br>
+    <h4>Tag para exibir um código; &lt;pre&gt;...&lt;/pre&gt;</h4>
+    <p>Vamos exibir um código em Python de um leitor de números pares ou ímpares</p>
+    <br>
+    <pre>def eh_par(numero):
+        """
+        Verifica se o número é par.
+      
+        Argumentos:
+          numero: O número a ser verificado.
+      
+        Retorno:
+          True se o número for par, False caso contrário.
+        """
+        return numero % 2 == 0
+      
+      def main():
+        """
+        Le um número do usuário e informa se ele é par ou ímpar.
+        """
+        numero = int(input("Digite um número: "))
+      
+        if eh_par(numero):
+          print(f"O número {numero} é par.")
+        else:
+          print(f"O número {numero} é ímpar.")
+      
+      if __name__ == "__main__":
+        main()
+      </pre>
+      <br>
+      <mark><strong><p> &#x2757;Observação importante: para exibir um código, eu posso usar a tag:  <mark>&lt;pre&gt;...&lt;/pre&gt;</mark> e <mark>&lt;code&gt;...&lt;/code&gt;</mark></p></strong></mark>
+      <br>
+      <p>Aqui temos um código sendo exibido com a tag &lt;pre&gt;...&lt;/pre&gt;:</p>
+        
+      <br>
+       
+      
+        <pre>
+def eh_par(numero):
+"""
+Verifica se o número é par.
+Argumentos:
+  numero: O número a ser verificado.
+Retorno:
+  True se o número for par, False caso contrário.
+"""
+return numero % 2 == 0
+      
+      def main():
+"""
+Le um número do usuário e informa se ele é par ou ímpar.
+"""
+numero = int(input("Digite um número: "))
+if eh_par(numero):
+  print(f"O número {numero} é par.")
+else:
+  print(f"O número {numero} é ímpar.")
+      
+      if __name__ == "__main__":
+main()
+        </pre>
+        <br>
+        <p>
+          e aqui temos um código sendo exibido com a tag code &lt;code&gt;...&lt;/code&gt;:
+        </p>
+        <code>
+            def eh_par(numero):
+            """
+            Verifica se o número é par.
+            Argumentos:
+              numero: O número a ser verificado.
+            Retorno:
+              True se o número for par, False caso contrário.
+            """
+            return numero % 2 == 0
+                  
+                  def main():
+            """
+            Le um número do usuário e informa se ele é par ou ímpar.
+            """
+            numero = int(input("Digite um número: "))
+            if eh_par(numero):
+              print(f"O número {numero} é par.")
+            else:
+              print(f"O número {numero} é ímpar.")
+                  
+                  if __name__ == "__main__":
+          main()
+        </code>
+        <br>
+        <p> uma apresentação do código em uma estrutura organizada e o outro por extenso</p>.
+        <br>
+        <h4>
+          Textos sobrescritos e subscritos
+        </h4>
+        <p>
+          Para colocarmos termos subscritos usamos a tag: &lt;sub&gt;...&lt;/sub&gt; <br>EX: a <sub>1</sub>, 1 <sub>a</sub>
+        </p>
+        <br>
+        <p>
+          E termos sobrescritos usamos a tag: &lt;sup&gt;...&lt;/sup&gt; <br> EX: 1 <sup>a</sup> a <sup>1</sup>
+        </p>
+        <br>
+        <h4>Tag de citação: &lt;q&gt;...&lt;/q&gt;</h4>
+        <p>Como diria um sabio professor: <q>O computador é um burro muito rápido</q></p>
+        <h4>Citação completa: &lt;blackquote&gt;...&lt;/blackquote&gt;</h4>
+        <blockquote cite="https://www.pensador.com/autor/pequena_sereia/">Eu acredito no amor. Eu creio que pode existir alguma chance e eu sempre acho que pode ser diferente. Talvez essa seja a explicação de todas decepções.</blockquote>
+        <h4>Tag de abreviação: &lt;abbr&gt;...&lt;/abbr&gt;</h4>
+        As linguagens <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>
+        
+     
+      
+    
+
+   
+
+    
+</body>
+</html>
